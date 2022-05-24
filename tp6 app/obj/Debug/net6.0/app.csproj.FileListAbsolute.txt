@@ -1,0 +1,15 @@
+C:\repos\tp06-2022-aJassGit\tp6 app\bin\Debug\net6.0\app.exe
+C:\repos\tp06-2022-aJassGit\tp6 app\bin\Debug\net6.0\app.deps.json
+C:\repos\tp06-2022-aJassGit\tp6 app\bin\Debug\net6.0\app.runtimeconfig.json
+C:\repos\tp06-2022-aJassGit\tp6 app\bin\Debug\net6.0\app.dll
+C:\repos\tp06-2022-aJassGit\tp6 app\bin\Debug\net6.0\app.pdb
+C:\repos\tp06-2022-aJassGit\tp6 app\obj\Debug\net6.0\app.csproj.AssemblyReference.cache
+C:\repos\tp06-2022-aJassGit\tp6 app\obj\Debug\net6.0\app.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\tp06-2022-aJassGit\tp6 app\obj\Debug\net6.0\app.AssemblyInfoInputs.cache
+C:\repos\tp06-2022-aJassGit\tp6 app\obj\Debug\net6.0\app.AssemblyInfo.cs
+C:\repos\tp06-2022-aJassGit\tp6 app\obj\Debug\net6.0\app.csproj.CoreCompileInputs.cache
+C:\repos\tp06-2022-aJassGit\tp6 app\obj\Debug\net6.0\app.dll
+C:\repos\tp06-2022-aJassGit\tp6 app\obj\Debug\net6.0\refint\app.dll
+C:\repos\tp06-2022-aJassGit\tp6 app\obj\Debug\net6.0\app.pdb
+C:\repos\tp06-2022-aJassGit\tp6 app\obj\Debug\net6.0\app.genruntimeconfig.cache
+C:\repos\tp06-2022-aJassGit\tp6 app\obj\Debug\net6.0\ref\app.dll
