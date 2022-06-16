@@ -1,38 +1,39 @@
-// See https://aka.ms/new-console-template for more information
 public class calculadora{
-    private double resultado;
-
-    public calculadora(double valor)
+    public double resultado;
+    public double valor_ingreso;
+    
+    public calculadora(double primer_valor)
     {
-        resultado = valor;
+        this.resultado = primer_valor;
     }
 
-    public double Resultado { get => resultado; set => resultado = value; }
-
-    public void Sumar(double valor_sumar)
+    public double Sumar(double valor_ingreso)
     {
-        resultado = resultado + valor_sumar;
+        return resultado += valor_ingreso;
     }
 
-    public void Restar(double valor_restar)
+    public double Restar(double valor_ingreso)
     {
-        resultado = resultado - valor_restar;
+        return resultado -= valor_ingreso;
     }
 
-    public void Multiplicar(double valor_multiplicar)
+    public double Multiplicar(double valor_ingreso)
     {
-        resultado = resultado * valor_multiplicar;
+        return resultado *= valor_ingreso;
     }
 
-    public void Dividir(double valor_dividir)
+    public double Dividir(double valor_ingreso)
     {
-        if(valor_dividir != 0){
-            resultado = resultado * valor_dividir;
+        if(valor_ingreso != 0){
+            return resultado /= valor_ingreso;
+        } else {
+            Console.WriteLine("Syntax Error: no existe division por cero");
+            return 0;
         }
     }
 
-    public void Limpiar()
+    public double Limpiar()
     {
-        resultado = 0;
+        return resultado = 0;
     }
 }
