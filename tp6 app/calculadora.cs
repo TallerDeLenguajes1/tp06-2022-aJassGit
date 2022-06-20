@@ -1,10 +1,10 @@
 public class calculadora{
     public double resultado;
-    public double valor_ingreso;
+    private double primer_valor;
     
     public calculadora(double primer_valor)
     {
-        this.resultado = primer_valor;
+        resultado = primer_valor;
     }
 
     public double Sumar(double valor_ingreso)
@@ -32,8 +32,8 @@ public class calculadora{
         }
     }
 
-    public double Limpiar()
+    public double Limpiar(double primer_valor)
     {
-        return resultado = 0;
+        return resultado = primer_valor;
     }
 }

@@ -41,11 +41,11 @@ do
         valor = Convert.ToDouble(value);
         Console.WriteLine(calcular.resultado+" / "+valor+" = "+calcular.Dividir(valor));
     } else if(opcion == 5){
-        calcular.Limpiar();
         Console.WriteLine("Se elimino el resultado anterior");
-    Console.WriteLine("Ingrese un nuevo numero inicial:");
+        Console.WriteLine("Ingrese un nuevo numero inicial:");
         initial = Console.ReadLine();
         inicial = Convert.ToDouble(initial);
+        calcular.Limpiar(inicial);
     } else if(opcion == 6){
         Console.WriteLine("El programa se cerrará a continuacion");
     } else {
